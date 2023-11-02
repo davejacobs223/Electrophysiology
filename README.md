@@ -2,6 +2,9 @@
 
 Some code for neural unit data recordings. Most is made to work with Ripple's output. But there are also some started code for reading in intan data....
 
+For ripping intan data:
+intan_process - will get out the voltage trace and do some basic filtering of potential spikes from a thresehold. Works with intans SDK called intan2py
+
 For ripping ripple files:
 NOTE – these ripple related codes require a special environment with python 2 that has pyns loaded. See ripple docs for pyns. The ‘environment’ yaml file can be used to create an anaconda environment that sets up the python 2 environment for pyns. 
 
