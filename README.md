@@ -8,7 +8,7 @@ intan_process - will get out the voltage trace and do some basic filtering of po
 For ripping ripple files:
 NOTE – these ripple related codes require a special environment with python 2 that has pyns loaded. See ripple docs for pyns. The ‘environment’ yaml file can be used to create an anaconda environment that sets up the python 2 environment for pyns. 
 
-Nev2mat – reads nev files to get spike forms on each channel based on the snippets. This code assumes the marker codes reported by Ripple need to be divided by 512 but can be adapted depending on how the codes were set up in the experiment  This code will also make rasters for each channel. Most importantly this outputs matlab files for each channel that can be read into Waveclus for sorting. 
+\textbf{Nev2mat} – reads nev files to get spike forms on each channel based on the snippets. This code assumes the marker codes reported by Ripple need to be divided by 512 but can be adapted depending on how the codes were set up in the experiment  This code will also make rasters for each channel. Most importantly this outputs matlab files for each channel that can be read into Waveclus for sorting. 
 
 Nsx2mat – reads ns2 files to get out the voltage traces (LFPs).  Files are saved as matlab files. 
 
